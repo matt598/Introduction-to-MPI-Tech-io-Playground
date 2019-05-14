@@ -84,7 +84,7 @@ int main(int argc, char **argv) {
 
   // Initialisation of the points :
   // The process with rank 0 will hold all the points
-  // The others will keep the variable poitns as a null pointer
+  // The others will keep the variable points as a null pointer
   MPI_Barrier(MPI_COMM_WORLD);
   double *points = NULL;
   
